@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "sodium_shield",
+  "version": "${version}",
+  "name": "Sodium",
+  "description": "",
+  "authors": ["Novix"],
+  "license": "MIT",
+  "icon": "assets/sodium/icon.png",
+  "environment": "*",
+  "mixins": [
+    "sodium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
